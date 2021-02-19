@@ -32,7 +32,7 @@ Here is the software I used. Python modules are mentioned here:
 
 * `dual_improved_movement.py`: Here, the robots move using `guizero` and `gpiozero`. In order to connect to each robot remotely I had to use `gpiozero.pins.pigpio` to allow remote connections to the GPIO pins. The `guizero` windows are used to not just control the motors but also the servo arm. This code can run on any PC as long as the python modules are installed. Also to enable `pigpio` on both robots I had to run `sudo pigpiod` to enable the `pigpio` daemon. 
 * `dual_robot_pwm.py`: This is exactly like the previous code but this time speed control is introduced. In the text box I input a number between 1 and 10 to control the speed of both robots because in gpiozero the speed of a robot is between zero and 1 and in the slider I made sure to divide 10 since sliders cannot use float numbers.
-* `camera_guizero.py`: To control the pi camera remotely while Torvalds moves I had to run this code from Torvalds using VNC viewer since this code cannot run on an ssh session.
+* `camera_guizero.py`: To control the pi camera remotely while Torvalds moves I had to run this code from Torvalds using VNC viewer since this code cannot run on an ssh session. The `dual_robot.mp4` video shows the final result of all the tests.
 
 ## Pictures
 
