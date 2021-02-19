@@ -15,3 +15,5 @@ Linus Materials
 13. CamJam Edukit 3 Breadboard (for the servos)
 14. Standoffs for the L298N
 15. 32 GB Micro SD Card
+16. 5V 2.1A USB power bank
+17. Micro USB cable with power switch
