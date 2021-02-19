@@ -1,0 +1,14 @@
+Torvalds Materials List
+
+1. DF Robot Devastator Tank Mobile Platform
+2. Two PC style HDD LED cables (for the eyes)
+3. LED Bezels
+4. Raspberry Pi 3B+
+5. 32 GB Micro SD Card
+6. Cam Jam Edukit 3 Motor Hat
+7. Plasticard and standoffs for the Pi 3B+ and for the base of the robot
+8. 6 AA batteries (for the motor)
+9. Raspberry Pi Camera
+10. 3D Printed Camera Mount
+11. 5V 3A USB Power Bank (to power the Pi)
+12. Jumper wires for the LED eyes
