@@ -12,7 +12,7 @@ To begin with first I will explain the hardware and software I used for the proj
 
 Here is the list of supplies I used:
 
-* My robot Torvalds (I used this robot from previous projects in my other GitHub Repos)
+* My robot Torvalds (I used this robot from previous projects in my other GitHub Repos). Materials list found on `torvalds_materials.txt` file.
 * My robot Linus: The list of materials can be found on the `linus_materials.txt`file
 * A PC to control both robots (In my initial tests I used my Acer Aspire One 725 but moved to my Raspberry Pi 4)
 
@@ -36,7 +36,7 @@ Here is the software I used. Python modules are mentioned here:
 
 ## Pictures
 
-* `dual_improve(https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-12-140715_1920x1080_scrot.pngd_movement.py`
+* `dual_improved_movement.py`(https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-12-140715_1920x1080_scrot.pngd_movement.py)
 * ![dual](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-12-140715_1920x1080_scrot.png)
 * `dual_robot_pwm.py`
 * ![pwm](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-17-163125_1920x1080_scrot.png)
