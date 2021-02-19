@@ -1,0 +1,17 @@
+Linus Materials
+
+1. Generic Robot car chassis
+2. CamJam Edukit 3 motors and wheels
+3. Jumper wires
+4. L298N
+5. CamJam Edukit 3 6V Battery Pack
+6. Cardboard
+7. Gray and green paint
+8. Two PC style Power LED connector cables
+9. Raspberry Pi Zero W
+10. Raspberry Pi Zero W Case
+11. Plasticard (to mount the Pi and L298N)
+12. Two 9g servos
+13. CamJam Edukit 3 Breadboard (for the servos)
+14. Standoffs for the L298N
+15. 32 GB Micro SD Card
