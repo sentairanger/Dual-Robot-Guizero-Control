@@ -24,7 +24,7 @@ Here is the software I used. Python modules are mentioned here:
 * Raspberry Pi OS Lite (Linus)
 * Raspbian Buster (Torvalds)
 * Manjaro Linux (Acer Aspire One 725 for initial tests)
-* Python modules `guizero`, `pigpio`, and `gpiozero`
+* Python modules `guizero`, `pigpio`, and `gpiozero`. For `gpiozero` I had to run this command to get the motors working since the current version does not work for motors: `sudo pip3 install https://bennuttall.com/files/gpiozero-1.5.2b1-py2.py3-none-any.whl`. 
 * On Torvalds I had to enable the Pi Camera for the final step of the project. I also enabled VNC since `guizero` code cannot run in the terminal. 
 * VNC Viewer (Raspberry Pi 4)
 
