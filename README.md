@@ -36,6 +36,9 @@ Here is the software I used. Python modules are mentioned here:
 
 ## Pictures
 
-* `dual_improved_movement.py`
+* `dual_improve(https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-12-140715_1920x1080_scrot.pngd_movement.py`
+* ![dual](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-12-140715_1920x1080_scrot.png)
 * `dual_robot_pwm.py`
+* ![pwm](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-17-163125_1920x1080_scrot.png)
 * `camera_guizero_.py` plus `dual_robot_pwm.py`
+* ![camera](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-17-163135_1920x1080_scrot.png)
