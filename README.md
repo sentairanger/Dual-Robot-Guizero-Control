@@ -46,3 +46,11 @@ Here is the software I used. Python modules are mentioned here:
 * `camera_guizero_.py` plus `dual_robot_pwm.py`
 * ![camera](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-17-163135_1920x1080_scrot.png)
 * ![robots](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/IMG_20210213_120338052.jpg)
+
+## Note on Duplicating the Project on Your Own
+
+To duplicate this project you can use any robot you wish as long as it uses a Raspberry Pi. Pi OS or Pi OS Lite is recommended for each robot. Also, to ensure `pigpio` is enabled, you must use the `sudo pigpiod` command. When controlling the robots, if you are not using a raspberry pi to control them use the following [link](https://gpiozero.readthedocs.io/en/stable/installing.html) to follow the instructions depending on your machine. Also make sure `guizero` is installed by using the `pip3 install guizero` or `pip install guizero` commands. 
+
+## Dedication
+
+This project is dedicated to Mr. Cain who has always supported my goals and sadly passed away in 2018. To my dad who died from covid in November and hoping he is still proud of my progress. To my abuelita who died in March 2020 from anemia. To my neighbor Vicente who I always took care of and sadly passed away from alzheimers in 2018. To all those in my family and my friends who passed away. To my friends who have been very supportive. And to the Perseverance team for inspiring me to do better. 
