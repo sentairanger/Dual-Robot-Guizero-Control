@@ -10,8 +10,9 @@ servo_window.bg = (51, 165, 255)
 app.bg = (51, 246, 255)
 
 #Define the factories
-factory = PiGPIOFactory(host='192.168.0.24')
-factory2 = PiGPIOFactory(host='192.168.0.10')
+# Add IP addresses here
+factory = PiGPIOFactory(host='')
+factory2 = PiGPIOFactory(host='')
 
 # Define both robots
 linus = Robot(left=(13, 21), right=(17,27), pin_factory = factory)
