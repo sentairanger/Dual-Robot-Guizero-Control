@@ -9,7 +9,8 @@ servo_window = Window(app, "Servo Control")
 # Background color
 robot_movement.bg = (88, 255, 51)
 # Define the factory
-factory = PiGPIOFactory(host='192.168.0.18')
+# Insert IP address here
+factory = PiGPIOFactory(host='')
 # Define the robot
 linus = Robot(left=(13, 21), right=(17,27), pin_factory = factory)
 # Define the LED that will be used for the eye
