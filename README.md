@@ -51,6 +51,12 @@ Here is the software I used. Python modules are mentioned here:
 
 To duplicate this project you can use any robot you wish as long as it uses a Raspberry Pi. Pi OS or Pi OS Lite is recommended for each robot. Also, to ensure `pigpio` is enabled, you must use the `sudo pigpiod` command. When controlling the robots, if you are not using a raspberry pi to control them use the following [link](https://gpiozero.readthedocs.io/en/stable/installing.html) to follow the instructions depending on your machine. Also make sure `guizero` is installed by using the `pip3 install guizero` or `pip install guizero` commands. 
 
+To run this on your own:
+* Copy the link from the code button and then go to your terminal and clone the repo by running the command `git clone https://github.com/sentairanger/Dual-Robot-Guizero-Control.git`
+* Take the `camera_guizero.py` code and copy it to the other robot that uses a Pi Camera. If both robots use a Camera you would still do the same thing. The easiest way to do so is to insert the SD card into an SD card reader and copy it to the root partition of the card, specifically the `/home/pi` directory. You can choose any sub directory you want for the file to be copied to. 
+* After that make sure your PC, Mac or Raspberry Pi has `guizero`, `gpiozero`, and `pigpio` set up.
+* You cannot run the code from the terminal on the Pi so you can use an IDE like Mu or Geany. I recommend Mu as it's more straightforward.
+
 ## Dedication
 
 This project is dedicated to Mr. Cain who has always supported my goals and sadly passed away in 2018. To my dad who died from covid in November and hoping he is still proud of my progress. To my abuelita who died in March 2020 from anemia. To my neighbor Vicente who I always took care of and sadly passed away from alzheimers in 2018. To all those in my family and my friends who passed away. To my friends who have been very supportive. And to the Perseverance team for inspiring me to do better. 
