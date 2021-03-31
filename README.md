@@ -46,6 +46,7 @@ Here is the software I used. Python modules are mentioned here:
 * `camera_guizero_.py` plus `dual_robot_pwm.py`
 * ![camera](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-17-163135_1920x1080_scrot.png)
 * ![robots](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/IMG_20210213_120338052.jpg)
+* `dual_movement_gui`![platform](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/Screenshot%20from%202021-03-31%2016-47-45.png)
 
 ## Note on Duplicating the Project on Your Own
 
