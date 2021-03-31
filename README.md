@@ -36,7 +36,7 @@ Here is the software I used. Python modules are mentioned here:
 * For the final test, I ran `dual_robot_pwm.py` and then ran `camera_guizero.py` on Torvalds using VNC Viewer.
 * `torvalds.py`: This was the initial test code I used for Torvalds locally to make sure the motors and the camera was working.
 * `linus_movement.py`: This was the initial test code I also used for Linus to test the motors and the servos before upscaling to the next phase.
-
+* `dual_movement_gui.py`: This is similar to `dual_improved_movement.py` only this time PWM is only on Linus and this code can be run on any platform.
 ## Pictures
 
 * `dual_improved_movement.py`
@@ -54,8 +54,9 @@ To duplicate this project you can use any robot you wish as long as it uses a Ra
 To run this on your own:
 * Copy the link from the code button and then go to your terminal and clone the repo by running the command `git clone https://github.com/sentairanger/Dual-Robot-Guizero-Control.git`
 * Take the `camera_guizero.py` code and copy it to the other robot that uses a Pi Camera. If both robots use a Camera you would still do the same thing. The easiest way to do so is to insert the SD card into an SD card reader and copy it to the root partition of the card, specifically the `/home/pi` directory. You can choose any sub directory you want for the file to be copied to. 
-* After that make sure your PC, Mac or Raspberry Pi has `guizero`, `gpiozero`, and `pigpio` set up.
 * You cannot run the code from the terminal on the Pi so you can use an IDE like Mu or Geany. I recommend Mu as it's more straightforward.
+
+To run this on other platforms (Linux, Windows and Mac) use the `dual_movement_gui.py` code and it should work. Just make sure that you have python 3 installed as well as `guizero`, `gpiozero` and `pigpio`. Also note that the motor and robot modules for `gpiozero` do not work on Linux, Windows or Mac due to a bug so please use the OutputDevice and PWMOutputDevice modules instead as they work on all platforms. 
 
 ## Dedication
 
