@@ -38,6 +38,7 @@ Here is the software I used. Python modules are mentioned here:
 * `linus_movement.py`: This was the initial test code I also used for Linus to test the motors and the servos before upscaling to the next phase.
 * `dual_movement_gui.py`: This is similar to `dual_improved_movement.py` only this time PWM is only on Linus and this code can be run on any platform.
 ## Pictures
+* `dual_robot_mobile.py`: This is similar to `dual_improved_movement.py` but can be run on any machine using VNC Viewer.
 
 * `dual_improved_movement.py`
 * ![dual](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-12-140715_1920x1080_scrot.png)
@@ -58,6 +59,10 @@ To run this on your own:
 * You cannot run the code from the terminal on the Pi so you can use an IDE like Mu or Geany. I recommend Mu as it's more straightforward.
 
 To run this on other platforms (Linux, Windows and Mac) use the `dual_movement_gui.py` code and it should work. Just make sure that you have python 3 installed as well as `guizero`, `gpiozero` and `pigpio`. Also note that the motor and robot modules for `gpiozero` do not work on Linux, Windows or Mac due to a bug so please use the OutputDevice and PWMOutputDevice modules instead as they work on all platforms. 
+
+* Windows: In order to run the code on Windows, first you will need a program like PUTTY to SSH into both robots as SSH is not included in Windows. Make sure to install Python from the official site and install the modules in the command prompt using pip3. Then install an IDE such as Mu or IDLE to run the code.
+* Mac OS: You can either install Python using the main site or `brew install python`. Use an IDE like Mu or IDLE to run the code. Make sure to install the needed modules and SSH into each robot.
+* Linux: Make sure pip3 is installed and install the needed modules. Use an IDE such as Mu or IDLE and make sure to SSH into both robots.
 
 ## Dedication
 
