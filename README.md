@@ -64,6 +64,11 @@ To run this on other platforms (Linux, Windows and Mac) use the `dual_movement_g
 * Mac OS: You can either install Python using the main site or `brew install python`. Use an IDE like Mu or IDLE to run the code. Make sure to install the needed modules and SSH into each robot.
 * Linux: Make sure pip3 is installed and install the needed modules. Use an IDE such as Mu or IDLE and make sure to SSH into both robots.
 
+
+## Update
+
+I added the `gui-robot-update.py` code to reflect the use of picamera2. The rest of the files will be updated to reflect the use of picamera2 as picamera no longer works on Bulleye or Bookworm.
+
 ## Dedication
 
 This project is dedicated to Mr. Cain who has always supported my goals and sadly passed away in 2018. To my dad who died from covid in November and hoping he is still proud of my progress. To my abuelita who died in March 2020 from anemia. To my neighbor Vicente who I always took care of and sadly passed away from alzheimers in 2018. To all those in my family and my friends who passed away. To my friends who have been very supportive. And to the Perseverance team for inspiring me to do better. 
