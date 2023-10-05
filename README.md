@@ -48,6 +48,8 @@ Here is the software I used. Python modules are mentioned here:
 * ![camera](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/2021-02-17-163135_1920x1080_scrot.png)
 * ![robots](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/IMG_20210213_120338052.jpg)
 * `dual_movement_gui`![platform](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/Screenshot%20from%202021-03-31%2016-47-45.png)
+* `gui-robot-update.py`
+* ![update](https://github.com/sentairanger/Dual-Robot-Guizero-Control/blob/main/new-gui.png)
 
 ## Note on Duplicating the Project on Your Own
 
@@ -67,7 +69,7 @@ To run this on other platforms (Linux, Windows and Mac) use the `dual_movement_g
 
 ## Update
 
-I added the `gui-robot-update.py` code to reflect the use of picamera2. The rest of the files will be updated to reflect the use of picamera2 as picamera no longer works on Bulleye or Bookworm.
+I added the `gui-robot-update.py` code to reflect the use of picamera2. The rest of the files will be updated to reflect the use of picamera2 as picamera no longer works on Bullseye or Bookworm. The image is also added to show the changes. The new code must run on a Raspberry Pi with Bullseye or newer. Picamera will be depreciated in the future so it's important to use this code instead. This can be extended to add more cameras, including the Raspberry Pi 5.
 
 ## Dedication
 
